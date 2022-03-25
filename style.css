@@ -1325,7 +1325,6 @@ margin-left: 12px;
 .hrman{
 width: 260px;
 height: 27px;
-/* UI Properties */
 text-align: left;
 font-size: 18px;
 font-weight: 400;
@@ -1334,6 +1333,7 @@ color: #000000;
 opacity: 1;
 margin-top: 7px;
 margin-left: 12px;
+background-color: #5CBE07;
 }
 
 .hricon{
