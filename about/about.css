@@ -1,0 +1,864 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* header */
+.container-fluid{
+    width: 100%;
+    height: 109px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: fixed;
+}
+
+.mynav{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.myul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.mymrjon{
+    width: 136px;
+    height: 56px;
+    background: transparent url('img/Group 2733.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: 100% 100%;
+    margin-left: 120px;
+    margin-top: 26.95px;
+}
+
+.myul>li{
+    list-style: none;
+    margin-top: 38px;
+}
+
+.myul>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+.myul>li>a:hover{
+    color: #5CBE07;
+}
+
+.home{
+width: 112px;
+height: 32px;
+opacity: 1;
+margin-left: 563px;
+}
+
+.home>.ahome{
+    color: #5CBE07;
+}
+
+.about{
+width: 112px;
+height: 32px;
+opacity: 1;
+}
+
+.contact{
+width: 153px;
+height: 32px;
+opacity: 1;
+margin-left: 10px;
+}
+
+.welcome{
+width: 112px;
+height: 32px;
+opacity: 1;
+margin-left: 18px;
+}
+
+.myul>.regist{
+width: 155px;
+height: 45px;
+margin-top: 32px;
+margin-left: 8px;
+}
+
+.butregist{
+width: 100%;
+height: 100%;
+background: #5CBE07 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+border: none;
+}
+
+.butregist:hover{
+    background-color: black;
+}
+
+.butregist>a{
+    width: 79px;
+    height: 21px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* andznakan */
+
+.wraper{
+    width: 100%;
+}
+
+.adzej{
+    width: 100%;
+    display: flex;
+    margin-top: 23px;
+}
+
+.ej{
+width: 138px;
+height: 27px;
+text-align: left;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 160px;
+}
+
+.mycook{
+    margin-left: 1050px;
+}
+
+.cooking{
+width: 39px;
+height: 30px;
+opacity: 1;
+}
+
+.povr{
+width: 93px;
+height: 26px;
+text-align: left;
+font-size: 19px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #212121;
+opacity: 1;
+margin-left: -25px;
+margin-top: 9px;
+}
+
+/* profil */
+.profil{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+}
+
+.jesika{
+width: 220px;
+height: 220px;
+box-shadow: 3px 3px 10px #00000045;
+border: 3px solid #FFFFFF;
+border-radius: 110px;
+opacity: 1;
+margin-left: 160px;
+}
+
+.adress{
+    width: 100%;
+    display: flex;
+}
+
+.place{
+width: 23px;
+height: 23px;
+opacity: 1;
+margin-left: 30px;
+}
+
+.erevan{
+width: 54px;
+height: 19px;
+text-align: left;
+font-size: 14px;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.vardanyan{
+width: 257px;
+height: 33px;
+text-align: left;
+font-size: 25px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 30px;
+margin-top: 5px;
+}
+
+.stars{
+    display: flex;
+    width: 100%;
+}
+
+.star1{
+    width: 19px;
+    height: 18px;
+    background-image: url(../img/Star\ Icon.svg);
+    background-size: 100% 100%;
+    margin-left: 30px;
+}
+
+
+.star2{
+    width: 19px;
+    height: 18px;
+    background-image: url(../img/Star\ Icon.svg);
+    background-size: 100% 100%;
+    margin-left: 5px;
+}
+
+/* immasin */
+
+.immasin{
+    display: flex;
+    width: 100%;
+}
+
+.im{
+width: 92px;
+height: 26px;
+text-align: left;
+font-size: 19px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #212121;
+opacity: 1;
+margin-left: 31px;
+margin-top: 8px;
+}
+
+.textim{
+ width: 610px;
+height: 37px;
+text-align: left;
+font-size: 16px;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 30px;
+}
+
+.hasce{
+    display: flex;
+}
+
+.mail{
+    display: flex;
+    margin-top: 17px;
+}
+
+.abovyan{
+width: 110px;
+height: 19px;
+text-align: left;
+font-size: 14px;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 3px;
+}
+
+.ox{
+width: 24px;
+height: 24px;
+margin-left: 170px;
+}
+
+.sms{
+width: 22px;
+height: 15px;
+margin-left: 170px;
+}
+
+.jes{
+width: 169px;
+height: 19px;
+text-align: left;
+font-size: 14px;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-top: -4px;
+margin-left: 4px;
+}
+
+.phone{
+    display: flex;
+    margin-top: 18px;
+}
+
+.tel{
+ width: 20px;
+ height: 20px;
+ opacity: 1;
+ margin-left: 170px;
+}
+
+.nomer{
+width: 105px;
+height: 19px;
+text-align: left;
+font-size: 14px;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 3px;
+}
+
+/* bord */
+
+.menu{
+width: 1350px;
+height: 70px;
+background: #373737 0% 0% no-repeat padding-box;
+box-shadow: 10px 10px 32px #00000047;
+opacity: 1;
+border-radius: 7px;
+margin-left: 90px;
+margin-top: 26px;
+display: flex;
+}
+
+.has{
+width: 154px;
+height: 24px;
+text-align: left;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 23px;
+margin-left: 136px;
+}
+
+
+.albom{
+width: 104px;
+height: 24px;
+text-align: left;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 23px;
+margin-left: 306px;
+}
+
+.karciq{
+width: 103px;
+height: 24px;
+text-align: left;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 23px;
+margin-left: 366px;
+}
+
+/* data */
+
+.data{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.block1{
+ width: 436px;
+ height: 585px;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+ box-shadow: 10px 10px 49px #00000033;
+ border-radius: 5px;
+ opacity: 1;
+ margin-left: 15px;
+}
+
+
+.block2{
+    margin-left: -35px;
+    margin-top: -67.5px;
+}
+
+.div{
+    width: 566px;
+    height: 550px;
+    background-image: url(../img/max-delsid-0geTqSZ76Xg-unsplash.png);
+    background-size: 100% 100%;
+}
+  
+
+   .block3{
+    width: 436px;
+    height: 585px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 49px #00000033;
+    border-radius: 5px;
+    opacity: 1;
+    overflow: hidden;
+    margin-left: 10px;
+    overflow-y: scroll;
+    margin-left: -54px;
+    margin-top: 1px;
+   }
+
+   .block4{
+    width: 436px;
+    height: 181px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 49px #00000033;
+    border-radius: 5px;
+    margin-left: 55px;
+    margin-top: -80px;
+   }
+
+   .tuyn{
+       display: flex;
+       margin-top: 20px;
+   }
+
+   .armine{
+    width: 56px;
+    height: 63px;
+   }
+
+   .sad{
+       display: flex;
+   }
+
+   .star3{
+       margin-left: 0px;
+       margin-left: 10px;
+       width: 24px;
+       height: 24px;
+       background-image: url(../img/Star\ Icon.svg);
+       background-size: 100% 100%;
+   }
+
+   .star4{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Star\ Icon.svg);
+    background-size: 100% 100%;
+   }
+
+   .star5{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Star\ Icon.png);
+    background-size: 100% 100%;
+   }
+
+   .p14{
+       font-size: 14px;
+   }
+
+   .asa{
+    width: 228px;
+    height: 27px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 58px;
+    margin-top: -39px;
+   }
+
+   .textar{
+    width: 374px;
+    height: 58px;
+    text-align: left;
+    font: normal normal normal 16px/21px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 10px;
+   }
+
+   .d1{
+       margin-top: 48px;
+   }
+
+
+   
+
+   .d2{
+       margin-top: 60px;
+   }
+
+   .d4{
+       margin-top: 14px;
+   }
+
+
+
+   .images{
+       display: flex;
+       padding-top: 10px;
+   }
+
+   .one{
+    width: 90px;
+    height: 82px;
+    margin-left: 15px;
+   }
+
+   .two{
+    width: 90px;
+    height: 76px;
+    margin-top: 4px;
+    margin-left: -10px;
+   }
+
+   
+   .three{
+    width: 90px;
+    height: 76px;
+    margin-top: 4px;
+    margin-left: -10px;
+   }
+
+      
+   .four{
+    width: 90px;
+    height: 76px;
+    margin-top: 4px;
+    margin-left: -10px;
+   }
+
+   .oxakner{
+       display: flex;
+   }
+
+   .o1{
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 220px;
+    border-radius: 50%;
+    margin-top: 150px;
+   }
+
+   .o2{
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-left: 20px;
+    margin-top: 150px;
+   }
+
+   .sey{
+    width: 21px;
+    height: 19px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 140px;
+    margin-left: 125px;
+   }
+
+   .drops{
+       display: flex;
+   
+   }
+
+   .fa-chevron-left{
+    color: #FFFFFF;
+    margin-top: 250px;
+    margin-left: 68px;
+   }
+
+   
+   .fa-chevron-right{
+    color: #FFFFFF;
+    margin-top: 250px;
+    margin-left: 390px;
+   }
+
+   .amsativ{
+       display: flex;
+       justify-content: center;
+   }
+
+   .fa-angle-left{
+       color: #5CBE07;
+       margin-top: 10px;
+   }
+
+   .fa-angle-right{
+    color: #5CBE07;
+    margin-top: 10px;
+}
+
+.noyember{
+    width: 126px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.orer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.spans{
+width: 33px;
+height: 24px;
+text-align: left;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.dzox{
+    width: 403px;
+    height: 3px;
+    background-color: #5CBE07;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.tver{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+.duet{
+width: 8px;
+height: 19px;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.kvo{
+width: 34px;
+height: 34px;
+background: #5CBE07 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+margin-left: -13px;
+padding-top: 3px;
+}
+
+.try{
+    margin-left: -22px;
+}
+
+.catch{
+width: 10px;
+height: 20px;
+text-align: center;
+font-size: 17px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-left: 12px;
+}
+
+.kvort{
+width: 34px;
+height: 34px;
+background: #5CBE07 0% 0% no-repeat padding-box;
+border-radius: 10px;
+padding-top: 3px;
+margin-left: -10px;
+}
+
+.catch1{
+width: 10px;
+height: 20px;
+text-align: center;
+font-size: 17px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-left: 7px;
+}
+
+.catch2{
+    margin-left: -22px;
+}
+
+.tut{
+    margin-top: 40px;
+}
+
+.kvodr{
+width: 34px;
+height: 34px;
+background: #5CBE07 0% 0% no-repeat padding-box;
+border-radius: 10px;
+margin-left: -5px;
+padding-top: 3px;
+}
+
+.catch3{
+    margin-left: -17px;
+}
+
+.tuz{
+    margin-top: 50px;
+}
+
+.amis{
+    display: flex;
+    margin-top: 70px;
+}
+
+.index{
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.nol{
+width: 252px;
+height: 19px; 
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 10px;
+}
+
+/* footer */
+
+.foot{
+    width: 100%;    
+    height: 170px;
+    background: #010101 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    margin-top: 20px;
+}
+    
+    .fotul{
+        display: flex;
+        width: 100%;
+        padding-top: 86px;
+    }
+    
+    .fotnav>.fotul>li{
+        list-style: none;
+    }
+    
+    .fotnav>.fotul>li>a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: 0px;
+    }
+    
+
+    .fothome{
+        width: 62px;
+        height: 19px;
+        opacity: 1;
+    }
+
+    .fotabout{
+        width: 90px;
+        height: 19px;
+        opacity: 1;
+        margin-left: 35px;
+    }
+
+    .fotblog{
+        width: 31px;
+        height: 19px;
+        margin-left: 20px;
+    }
+
+    .fotkap{
+        width: 131px;
+        height: 19px;
+        margin-left: 35px;
+    }
+
+    .fotpolice{
+        width: 95px;
+        height: 18px;
+        margin-left: 12px;
+    }
+
+    .fotterms{
+        width: 90px;
+        height: 18px;
+        margin-left: 12px;
+    }
+    .icons{
+        width: 100%;
+        display: flex;
+        margin-left: 690px;
+        margin-top: 86px;
+    }
+    
+    .in{
+        width: 24px;
+        height: 24px;
+    }
